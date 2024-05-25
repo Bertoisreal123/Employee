@@ -1,0 +1,49 @@
+@charset "ISO-8859-1";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+body {
+  margin: 0;
+  font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.container{
+	max-width: 640px;
+}
+
+
+.btn1{
+  position: relative;
+  max-width: 150px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  font-weight: 600;
+  border: none;
+  border-radius: 35px;
+  border: 1px solid rgba(255,255,255,0.5);
+  border-right: 1px solid rgba(255,255,255,0.2);
+  border-bottom: 1px solid rgba(255,255,255,0.2);
+  box-shadow: 3px 5px 1px rgba(0,0,0,0.05);
+  padding-left: 30px;
+  padding-right: 30px;
+  font-family: 'Poppins';
+}
+
+.bg-color-white{
+  background: #DBFADD;
+  color: #666;
+}
+
+.border-2{
+	border-width:2px;
+} 
